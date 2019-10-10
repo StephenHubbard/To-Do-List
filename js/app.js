@@ -1,5 +1,4 @@
 const clear = document.querySelector(".clear");
-const dateElement = document.getElementById("date");
 const list = document.getElementById("list");
 const input = document.getElementById("input");
 
@@ -9,14 +8,8 @@ const UNCHECK = "fa-circle-thin";
 const LINE_THROUGH = "lineThrough";
 
 //Variables
-let LIST = []
-    , id = 0;
-
-// Show todays date
-// const options = {weekday : "long", month: "short", day: "numeric"};
-// const today = new Date();
-
-// dateElement.innerHTML = today.toLocaleDateString("en-US", options);
+let LIST = [];
+let id = 0;
 
 // add to do function 
 
